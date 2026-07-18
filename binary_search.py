@@ -1,4 +1,5 @@
 # binary search.py
+
 def binarysearch(my_array,target):
     left=0
     right=len(my_array)-1
@@ -16,5 +17,4 @@ def binarysearch(my_array,target):
     return -1
 
 print(binarysearch([1, 5, 10, 12, 25, 30, 32], 1))
-
 print(binarysearch([1, 5, 10, 12, 25, 30, 32], 29))
